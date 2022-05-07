@@ -61,7 +61,7 @@ overflow: hidden;
 	width: 0px; 
 	height: 0px; 
 	background: radial-gradient(circle, rgba(33,189,126,0) 0%, rgba(33,189,126,1) 100%);animation: scale-up-center 3s ease-out alternate both;
-	transition-delay: 1s;
+	animation-delay: 1s;
 	/* box-shadow: 0px 0px 10px #fff; */
 }
 .scale-up-center:before, 
@@ -110,14 +110,6 @@ overflow: hidden;
  }
 
 
- @keyframes shadow {
-	0% {
-	opacity: 0;	
-	}
-	100% {
-		opacity: 1;
-	}
- }
 
  @keyframes circle {
 	0% {
