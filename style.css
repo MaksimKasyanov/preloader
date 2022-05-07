@@ -9,7 +9,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100vw;
-height: 1000px;
+height: 100vh;
 background-color: #181818;
 overflow: hidden;
 }
@@ -60,9 +60,9 @@ overflow: hidden;
 	transform: translate(-50%, -50%);
 	width: 0px; 
 	height: 0px; 
-	background: radial-gradient(circle, rgba(33,189,126,0) 0%, rgba(33,189,126,1) 100%);animation: scale-up-center 3s ease-out alternate both;
+	background: radial-gradient(circle, rgba(33,189,126,0) 0%, rgba(0,255,152,1) 100%);
+	animation: scale-up-center 3s ease-out alternate both;
 	animation-delay: 1s;
-	/* box-shadow: 0px 0px 10px #fff; */
 }
 .scale-up-center:before, 
 .scale-up-center:after {
@@ -70,8 +70,7 @@ overflow: hidden;
 	height: 100%; 
 	width:100%;
 	background: inherit;
-	position: absolute; 
-	/* box-shadow: 0px 0px 10px #fff; */
+	position: absolute;
 	top: 0; 
 	left: 0;
 }
@@ -91,10 +90,11 @@ overflow: hidden;
 	width: 30px;
 	height: 30px;
 	background-color: transparent;
-	box-shadow: 0px 0px 10px 2px #fff;
+	box-shadow: 0px 0px 6px 2px #fff;
 	border-radius: 50%;
-	animation: shadow 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation-delay: 2.25s;
+	animation-delay: 1.25s;
+	animation: circle 2s cubic-bezier(0.150, 0.760, 0.850, 0.940) both;
+	opacity: 0;
 }
 @keyframes scale-up-center {
 	0% {
