@@ -62,7 +62,7 @@ overflow: hidden;
 	height: 0px; 
 	background: radial-gradient(circle, rgba(33,189,126,0) 0%, rgba(0,255,152,1) 100%);
 	animation: scale-up-center 3s ease-out alternate both;
-	animation-delay: 1s;
+	animation-delay: .5s;
 }
 .scale-up-center:before, 
 .scale-up-center:after {
